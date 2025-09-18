@@ -1,0 +1,5 @@
+DirectoryIndex login.php index.php index.html
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^admin/?$ /admin/login.php [L]
